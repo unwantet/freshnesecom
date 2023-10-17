@@ -1,0 +1,300 @@
+.section{
+    width: 1260px;
+    height: 425.5px;
+    display: flex;
+    padding: 64px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.section__txt{
+    width: inherit;
+    display: flex;
+    padding: 0 45px;
+    justify-content: space-between;
+        h3{
+            color:#151515;
+            font-family: system-ui;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+
+        button{
+            width: 98px;
+            height: 38px;
+            display: flex;
+            padding: 6px 12px;
+            align-items: baseline;
+            gap: 6px;
+            border: none;
+            background-color: #FFF;
+        }
+
+        button p {
+            color: #151515;
+            font-family: system-ui;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+}
+
+
+.carousel{
+    width: 1260px;
+    height: 222px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.carousel-indicators{
+    display: none;
+}
+
+
+.carusel__card{
+    width: 369px;
+    height: 222px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+        img{
+            position: absolute;
+            margin: 174px 161px 0 160px ;
+        }
+}
+
+.person-ava{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.card__tit{
+    width: 369px;
+    height: 198px;
+    border-radius: 12px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+    padding: 24px 32px 0 32px;
+    position: relative;          
+
+    &:hover{
+        background-color: rgb(212, 212, 212);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+        
+        :first-child{
+            color: #151515;
+            text-align: center;
+            font-family: system-ui;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        :nth-child(2){
+            color: #A9A9A9;
+            text-align: center;
+            font-family: system-ui;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-top: 24px;
+        }
+}
+
+a{
+    span{
+        right: 0;
+        left: auto;
+
+    }
+}
+
+.carousel-control.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.carousel-control.left{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.carousel-inner>.item.active{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+.card-section{
+    width: 1260px;
+    padding: 64px 45px;
+    gap: 32px;   
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    .section__tit{
+        display: flex;
+        justify-content: space-between;
+
+        h3{
+            color:#151515;
+            font-family: system-ui;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+
+        button{
+            width: 98px;
+            height: 38px;
+            display: flex;
+            padding: 6px 12px;
+            align-items: baseline;
+            gap: 6px;
+            border: none;
+            background-color: #FFF;
+        }
+
+        button p {
+            color: #151515;
+            font-family: system-ui;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+.cards{
+    height: 332px;
+    width: 1170px;
+    display: flex;
+    gap: 25px;
+    .card{
+        display: flex;
+        width: 269px;
+        height: 323px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 12px;
+        border: 1px solid #D1D1D1;
+        background:#FFF;
+
+
+
+        .card__st-bg{
+            width: 236px;
+            height: 180px;
+            background-color: #F9F9F9;
+            padding: 12px 0 0 12px;
+            text-align: center;
+            p{
+                width: 54px;
+                height: 18px;
+                border-radius: 12px;
+                background: #F4F8EC;
+                color: var(--c-2-a, #6A983C);
+                font-family: system-ui;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+
+}
+
+.card:hover{
+    width: 268px;
+    height: 332px;
+    transition: all 0.2s ease-out;
+}
+
+.content{
+
+    .prod-tit{
+        color: #151515;
+        font-family: system-ui;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 16px;
+    }
+    .prod-info{
+        color: #575757;
+        font-family: system-ui;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 4px;
+    }
+    
+    
+}
+
+.price-button{
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+    p{
+        color:  #151515;
+        font-family: system-ui;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .btn{
+        display: flex;
+        height: 36px;
+        padding: 12px;
+        align-items: center;
+        border-radius: 12px;
+        border: 2px solid #46760A;
+        background: #6A983C;
+        p{
+            color: #FFF;
+            font-family: system-ui;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        :active{
+            background-color: #7cc673;
+        }
+    }
+    button:hover{
+    background-color: #7cc673;
+    transition: all 0.3s ease;
+    }
+    
+}
+    
